@@ -7,6 +7,8 @@ public class FizzBuzz {
               System.out.println("Fizz"+"\n");
             else if (i%5==0)
               System.out.println("Buzz"+"\n");
+            else if (i%15==0)
+              System.out.println("FizzBuzz"+"\n");
             else   
               System.out.println(i+"\n");
         }
